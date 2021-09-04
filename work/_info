@@ -1,0 +1,77 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\an\Desktop\freqDetect_test\test
+vbarc_tb
+Vdjg:IooXAVj^[83B4cYbH3
+r1
+31
+IodQ329mg@l`T]MFTd>o683
+Z0 dC:\Users\an\Desktop\BKM
+w1524481698
+8C:/Users/an/Desktop/BKM/barc_tb.v
+FC:/Users/an/Desktop/BKM/barc_tb.v
+L0 1
+Z1 OL;L;10.1c;51
+Z2 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s85 0
+!s100 zbA2kOE0>da8Q=[Mh0Pd92
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/an/Desktop/BKM/barc_tb.v|
+!i10b 1
+!s108 1524481943.613000
+!s107 C:/Users/an/Desktop/BKM/barc_tb.v|
+vbuc
+VPB6zKToE8gXADE82W_Geh1
+r1
+31
+IjfNOceMWWY4YHMnm@6>C>2
+Z3 dC:\Users\an\Desktop\BKM
+w1524481940
+8C:\Users\an\Desktop\BKM\buc.v
+FC:\Users\an\Desktop\BKM\buc.v
+L0 1
+R1
+R2
+!s85 0
+!s100 EZUJ;F9_Y90`D<ZOHdoU21
+!s90 -reportprogress|300|-work|work|-vopt|C:\Users\an\Desktop\BKM\buc.v|
+!s108 1524481942.931000
+!s107 C:\Users\an\Desktop\BKM\buc.v|
+!i10b 1
+vbuc_devider
+V4Ok`L=X^ML22BO@JAaM_:0
+r1
+31
+I^dUaBiJH[h@8UGBMGifBN3
+R3
+w1524480470
+8C:/Users/an/Desktop/BKM/buc_devider.v
+FC:/Users/an/Desktop/BKM/buc_devider.v
+L0 1
+R1
+R2
+!s85 0
+!s100 h]6l6CKmZ4>[PS=P7ATYP3
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/an/Desktop/BKM/buc_devider.v|
+!s108 1524481943.353000
+!s107 C:/Users/an/Desktop/BKM/buc_devider.v|
+!i10b 1
+vbuc_recieve
+Vn__1=nNK[c`f0IL>DAN1_2
+r1
+!s85 0
+31
+I13;JXkblICz5[aP1Ujd361
+R3
+w1524478595
+8C:/Users/an/Desktop/BKM/buc_recieve.v
+FC:/Users/an/Desktop/BKM/buc_recieve.v
+L0 1
+R1
+R2
+!s100 mabLnP4nJAzBX_fI=TUJ:1
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/an/Desktop/BKM/buc_recieve.v|
+!s108 1524481943.176000
+!s107 C:/Users/an/Desktop/BKM/buc_recieve.v|
+!i10b 1

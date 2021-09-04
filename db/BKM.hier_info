@@ -1,0 +1,104 @@
+|buc
+clk => clk.IN1
+rst => rst.IN1
+din => din.IN1
+valid <= buc_devider:U1.valid
+threshold[0] => threshold[0].IN1
+threshold[1] => threshold[1].IN1
+threshold[2] => threshold[2].IN1
+threshold[3] => threshold[3].IN1
+
+
+|buc|buc_devider:U1
+din_buc[0] => Add0.IN5
+din_buc[0] => sum.DATAA
+din_buc[0] => Add0.IN6
+din_buc[0] => sum.DATAA
+din_buc[0] => Add0.IN7
+din_buc[0] => sum.DATAA
+din_buc[0] => Add0.IN8
+din_buc[0] => sum.DATAA
+din_buc[1] => sum.OUTPUTSELECT
+din_buc[1] => sum.OUTPUTSELECT
+din_buc[1] => sum.OUTPUTSELECT
+din_buc[1] => sum.OUTPUTSELECT
+din_buc[2] => sum.OUTPUTSELECT
+din_buc[2] => sum.OUTPUTSELECT
+din_buc[2] => sum.OUTPUTSELECT
+din_buc[2] => sum.OUTPUTSELECT
+din_buc[3] => sum.OUTPUTSELECT
+din_buc[3] => sum.OUTPUTSELECT
+din_buc[3] => sum.OUTPUTSELECT
+din_buc[3] => sum.OUTPUTSELECT
+din_buc[4] => sum.OUTPUTSELECT
+din_buc[4] => sum.OUTPUTSELECT
+din_buc[4] => sum.OUTPUTSELECT
+din_buc[4] => sum.OUTPUTSELECT
+din_buc[5] => sum.OUTPUTSELECT
+din_buc[5] => sum.OUTPUTSELECT
+din_buc[5] => sum.OUTPUTSELECT
+din_buc[5] => sum.OUTPUTSELECT
+din_buc[6] => sum.OUTPUTSELECT
+din_buc[6] => sum.OUTPUTSELECT
+din_buc[6] => sum.OUTPUTSELECT
+din_buc[6] => sum.OUTPUTSELECT
+din_buc[7] => sum.OUTPUTSELECT
+din_buc[7] => sum.OUTPUTSELECT
+din_buc[7] => sum.OUTPUTSELECT
+din_buc[7] => sum.OUTPUTSELECT
+din_buc[8] => sum.OUTPUTSELECT
+din_buc[8] => sum.OUTPUTSELECT
+din_buc[8] => sum.OUTPUTSELECT
+din_buc[8] => sum.OUTPUTSELECT
+din_buc[9] => sum.OUTPUTSELECT
+din_buc[9] => sum.OUTPUTSELECT
+din_buc[9] => sum.OUTPUTSELECT
+din_buc[9] => sum.OUTPUTSELECT
+din_buc[10] => sum[4].OUTPUTSELECT
+din_buc[10] => sum[3].OUTPUTSELECT
+din_buc[10] => sum[2].OUTPUTSELECT
+din_buc[10] => sum[1].OUTPUTSELECT
+threshold[0] => LessThan0.IN5
+threshold[1] => LessThan0.IN4
+threshold[2] => LessThan0.IN3
+threshold[3] => LessThan0.IN2
+valid <= valid.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|buc|buc_recieve:U2
+clk => dout_buc[0]~reg0.CLK
+clk => dout_buc[1]~reg0.CLK
+clk => dout_buc[2]~reg0.CLK
+clk => dout_buc[3]~reg0.CLK
+clk => dout_buc[4]~reg0.CLK
+clk => dout_buc[5]~reg0.CLK
+clk => dout_buc[6]~reg0.CLK
+clk => dout_buc[7]~reg0.CLK
+clk => dout_buc[8]~reg0.CLK
+clk => dout_buc[9]~reg0.CLK
+clk => dout_buc[10]~reg0.CLK
+rst => dout_buc[0]~reg0.ACLR
+rst => dout_buc[1]~reg0.ACLR
+rst => dout_buc[2]~reg0.ACLR
+rst => dout_buc[3]~reg0.ACLR
+rst => dout_buc[4]~reg0.ACLR
+rst => dout_buc[5]~reg0.ACLR
+rst => dout_buc[6]~reg0.ACLR
+rst => dout_buc[7]~reg0.ACLR
+rst => dout_buc[8]~reg0.ACLR
+rst => dout_buc[9]~reg0.ACLR
+rst => dout_buc[10]~reg0.ACLR
+din => dout_buc[0]~reg0.DATAIN
+dout_buc[0] <= dout_buc[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout_buc[1] <= dout_buc[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout_buc[2] <= dout_buc[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout_buc[3] <= dout_buc[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout_buc[4] <= dout_buc[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout_buc[5] <= dout_buc[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout_buc[6] <= dout_buc[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout_buc[7] <= dout_buc[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout_buc[8] <= dout_buc[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout_buc[9] <= dout_buc[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dout_buc[10] <= dout_buc[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
